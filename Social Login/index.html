@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      src="https://kit.fontawesome.com/34b3acab4e.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Social Login</title>
+  </head>
+  <body class="min-h-screen flex items-center justify-center bg-purple-600">
+    <div class="bg-[#DDE5F9] p-5 rounded-xl w-screen md:w-2/4">
+      <div
+        class="bg-gradient-to-r from-[#4C6CDC] to-[#2446C0] rounded-xl flex justify-center items-center flex-col"
+      >
+        <div
+          class="w-2/4 py-8 md:py-16 text-center flex flex-col gap-4 items-center"
+        >
+          <h2 class="md:text-2xl text-white">Already Working Together?</h2>
+          <p class="text-white md:text-sm md:w-4/5">
+            Log in to your account and connect with your teammates!
+          </p>
+
+          <div class="relative">
+            <form onsubmit="submit">
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="youremail@address.com"
+                class="email bg-white opacity-60 rounded-full py-2 md:w-72 px-3 placeholder:text-sm placeholder:text-gray-500"
+              />
+              <button
+                type="submit"
+                class="absolute right-2 top-1 bg-white px-2 py-1 rounded-full opacity-80 cursor-pointer"
+              >
+                <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="flex gap-5">
+          <img
+            class="w-16 rounded-full border-[7px] border-[#FFF] aspect-square -mb-10 hover:scale-110 cursor-pointer"
+            src="https://source.unsplash.com/random?person"
+            alt="random image"
+          />
+          <img
+            class="w-16 rounded-full border-[7px] border-[#FFF] aspect-square -mb-10 hover:scale-110 cursor-pointer"
+            src="https://source.unsplash.com/random?person"
+            alt="random image"
+          />
+          <img
+            class="w-16 rounded-full border-[7px] border-[#FFF] aspect-square -mb-10 hover:scale-110 cursor-pointer"
+            src="https://source.unsplash.com/random?person"
+            alt="random image"
+          />
+          <img
+            class="w-16 rounded-full border-[7px] border-[#FFF] aspect-square -mb-10 hover:scale-110 cursor-pointer"
+            src="https://source.unsplash.com/random?person"
+            alt="random image"
+          />
+          <img
+            class="w-16 rounded-full border-[7px] border-[#FFF] aspect-square -mb-10 hover:scale-110 cursor-pointer"
+            src="https://source.unsplash.com/random?person"
+            alt="random image"
+          />
+        </div>
+      </div>
+    </div>
+    <script>
+      const submit = (event) => {
+        event.preventDefault()
+        alert("Succesfully submitted")
+      }
+    </script>
+  </body>
+</html>
