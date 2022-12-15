@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/34b3acab4e.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Cart Item</title>
+  </head>
+  <body class="min-h-screen flex justify-center items-center bg-purple-500">
+    <div
+      class="flex flex-col md:grid md:grid-cols-[40%_60%] w-[40rem] min-h-[30rem] bg-white shadow-lg shadow-gray-400 rounded-lg py-4 md:py-0"
+    >
+      <div class="p-4 flex justify-center items-center">
+        <img src="./Headset.png" alt="Razer Headset" class="w-24 md:w-full" />
+      </div>
+      <div class="flex flex-col justify-center px-4 md:pl-4 md:pr-16">
+        <div class="flex flex-col gap-2">
+          <p
+            class="text-[10px] text-white bg-[#191847] w-fit px-2 py-0.5 rounded-full"
+          >
+            Free Shipping
+          </p>
+          <h2 class="w-3/4 font-bold">
+            Razer Kraken Pro V2 Headphones Razer Kraken 7.1
+          </h2>
+        </div>
+        <div class="mt-4">
+          <p class="text-[12px]"><strike>1 599,-</strike></p>
+          <p class="text-3xl font-bold">799,-</p>
+        </div>
+        <p class="text-[10px] opacity-80 mt-2 mb-6">
+          The offer is valid upto April 3 or as long as stock lasts!
+        </p>
+        <button
+          class="bg-[#4787E9] py-2 text-white rounded-lg border-b-4 border-b-[#1C57EE] hover:bg-[#1C57EE] hover:border-b-[#4787E9] transition-all"
+        >
+          Add to cart
+        </button>
+        <p class="my-4 text-[10px] font-bold">🟢 50+ pcs. in stock</p>
+        <div class="flex justify-between">
+          <button
+            class="flex items-center gap-2 border-2 border-gray-400 w-[45%] py-2 justify-center text-sm rounded-md hover:bg-gray-200 transition-all"
+          >
+            <i class="fa-solid fa-scale-balanced"></i>
+            <p>Add to Cart</p>
+          </button>
+          <button
+            class="flex items-center gap-2 border-2 border-gray-400 w-[45%] py-2 justify-center text-sm rounded-md hover:bg-gray-200 transition-all"
+          >
+            <i class="fa-regular fa-heart"></i>
+            <p>Add to wishlist</p>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="absolute bottom-0 md:bottom-4 text-white">@ShettyDeveesh</div>
+  </body>
+</html>
