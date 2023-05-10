@@ -1,3 +1,3 @@
-# ICodeThis
+# CSS Is Fun
 
-Repository which has small challenges given by FlorinPop
+### Yes! You heard it right CSS is awesome, and this repository contains UI Snippets
