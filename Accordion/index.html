@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Accordion</title>
+  </head>
+  <body>
+    <main class="container">
+      <h1 class="faq">Frequenty Asked Questions</h1>
+      <div class="accordion">
+        <div class="set">
+          <div>
+            <p class="question">Who is this?</p>
+            <i class="btn fa fa-angle-down" data-index="0"></i>
+          </div>
+          <p class="answer" data-hidden="true">
+            I am Deveesh Shetty. I work with React and NextJS. Connect with me
+            on
+            <a href="https://github.com/Deveesh-Shetty" class="link">
+              <i class="fa fa-brands fa-github"></i></a
+            >.
+          </p>
+        </div>
+        <div class="set">
+          <div>
+            <p class="question">What is this?</p>
+            <i class="btn fa fa-angle-down" data-index="1"></i>
+          </div>
+          <p class="answer" data-hidden="true">
+            This is an accordion which I made for fun using HTML, CSS, and
+            JavaScript. How is it?
+          </p>
+        </div>
+        <div class="set">
+          <div>
+            <p class="question">Why is this?</p>
+            <i class="btn fa fa-angle-down" data-index="2"></i>
+          </div>
+          <p class="answer" data-hidden="true">
+            Well, Why is this even a question!
+          </p>
+        </div>
+      </div>
+    </main>
+  </body>
+  <script src="./script.js"></script>
+</html>
