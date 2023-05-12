@@ -1,0 +1,71 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #131313;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 6vmin;
+  width: max(90%, 25em);
+}
+
+.light::before {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 10vmin;
+  background-color: #666;
+  z-index: -1;
+}
+
+.light {
+  --light-size: 4vmin;
+  --light-clr: red;
+  --delay: 0s;
+  --total-time: 5s;
+
+  position: relative;
+  width: var(--light-size);
+  aspect-ratio: 1 / 2;
+  border-radius: 50%;
+  background-color: var(--light-clr);
+  box-shadow: 0 0 1em 2px var(--light-clr);
+  animation: light-up var(--total-time) var(--delay) infinite alternate
+    ease-in-out;
+}
+
+.light:nth-child(odd) {
+  --light-clr: purple;
+  --delay: 1s;
+}
+
+.light:nth-child(5n + 2) {
+  --light-clr: hotpink;
+  --delay: 2s;
+}
+
+.light:nth-child(3n + 1) {
+  --light-clr: orange;
+  --delay: 500ms;
+}
+
+@keyframes light-up {
+  to {
+    box-shadow: 0 0 2em 10px var(--light-clr);
+  }
+}
