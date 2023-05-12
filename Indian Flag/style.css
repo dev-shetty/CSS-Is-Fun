@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(45deg, lightblue, pink);
+}
+
+:root {
+  --saffron: #ff9933;
+  --white: #ffffff;
+  --green: #138808;
+  --navy-blue: #000080;
+}
+
+.flag {
+  height: 60vmin;
+  aspect-ratio: 4 / 3;
+  display: flex;
+  flex-direction: column;
+}
+
+.saffron,
+.white,
+.green {
+  height: 20vmin;
+}
+.saffron {
+  background-color: var(--saffron);
+}
+.white {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--white);
+}
+.green {
+  background-color: var(--green);
+}
+.ashoka-chakra {
+  border: 0.75vmin solid var(--navy-blue);
+  width: 18vmin;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.spokes {
+  position: absolute;
+  width: 17.5vmin;
+  height: 0.2vmin;
+  background-color: var(--navy-blue);
+}
+.spokes::before,
+.spokes::after {
+  content: "";
+  position: absolute;
+  width: 1vmin;
+  aspect-ratio: 1;
+  background-color: var(--navy-blue);
+  border-radius: 50%;
+}
+.spokes::before {
+  top: 0.75vmin;
+  left: 0vmin;
+}
+.spokes::after {
+  right: 0vmin;
+  bottom: 0.75vmin;
+}
+
+.spokes:nth-child(1) {
+  transform: rotate(15deg);
+}
+.spokes:nth-child(2) {
+  transform: rotate(30deg);
+}
+.spokes:nth-child(3) {
+  transform: rotate(45deg);
+}
+.spokes:nth-child(4) {
+  transform: rotate(60deg);
+}
+.spokes:nth-child(5) {
+  transform: rotate(75deg);
+}
+.spokes:nth-child(6) {
+  transform: rotate(90deg);
+}
+.spokes:nth-child(7) {
+  transform: rotate(105deg);
+}
+.spokes:nth-child(8) {
+  transform: rotate(120deg);
+}
+.spokes:nth-child(9) {
+  transform: rotate(135deg);
+}
+.spokes:nth-child(10) {
+  transform: rotate(150deg);
+}
+.spokes:nth-child(11) {
+  transform: rotate(165deg);
+}
+.spokes:nth-child(12) {
+  transform: rotate(180deg);
+}
