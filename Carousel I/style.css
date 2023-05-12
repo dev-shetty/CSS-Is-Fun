@@ -1,0 +1,106 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --clr-primary: #f49f1c;
+  --clr-secondary: #030e4f;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-container {
+  --image-gap: 0.5em;
+
+  display: flex;
+  gap: var(--image-gap);
+  align-content: center;
+  margin-inline: 0.5rem;
+}
+
+.previous,
+.next {
+  display: flex;
+  align-items: center;
+  padding-inline: 0.5rem;
+  cursor: pointer;
+  transition: background-color 300ms ease-in-out;
+}
+
+.previous:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.carousel {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+}
+
+.carousel > img {
+  --image-size: 20em;
+  --inactive-image-size: 2em;
+
+  max-width: 100%;
+  width: var(--image-size);
+  aspect-ratio: 1;
+  display: block;
+  user-select: none;
+  object-fit: cover;
+  transition: width 500ms ease-in-out;
+}
+
+.carousel[data-active="false"] > .content {
+  display: none;
+}
+
+.content {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+  transform: translateY(100%);
+  transition: transform 350ms ease-in-out;
+}
+
+.content > p {
+  font-size: clamp(1em, 10vw, 2em);
+}
+
+.carousel[data-active="false"] > img {
+  width: var(--inactive-image-size);
+  height: var(--image-size);
+}
+
+.carousel[data-active="true"]:hover > .content {
+  transform: translateY(0);
+}
+
+@media screen and (max-width: 480px) {
+  .carousel-container {
+    --image-gap: 0;
+  }
+
+  .carousel > img {
+    --image-size: auto;
+  }
+  .carousel[data-active="false"] > img {
+    display: none;
+  }
+}

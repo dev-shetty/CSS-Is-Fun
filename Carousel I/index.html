@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Image Carousel I</title>
+  </head>
+  <body>
+    <main>
+      <div class="carousel-container">
+        <div class="previous">
+          <i class="fa fa-angle-left"></i>
+        </div>
+        <div class="carousel" data-index="0" data-active="true">
+          <img src="https://picsum.photos/400/400?random=1" alt="image 1" />
+          <div class="content">
+            <p>Image 1</p>
+          </div>
+        </div>
+        <div class="carousel" data-index="1" data-active="false">
+          <img src="https://picsum.photos/400/400?random=2" alt="image 1" />
+          <div class="content">
+            <p>Image 2</p>
+          </div>
+        </div>
+        <div class="carousel" data-index="2" data-active="false">
+          <img src="https://picsum.photos/400/400?random=3" alt="image 1" />
+          <div class="content">
+            <p>Image 3</p>
+          </div>
+        </div>
+        <div class="next">
+          <i class="fa fa-angle-right"></i>
+        </div>
+      </div>
+    </main>
+  </body>
+  <script src="script.js"></script>
+</html>
