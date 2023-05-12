@@ -1,0 +1,81 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  perspective: 25em;
+  /* perspective - whatever is closer looks bigger and whatever is further away looks smaller. */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cube,
+.cube-face {
+  position: absolute;
+}
+
+.cube {
+  --cube-edge: 6em;
+
+  font-size: 6vmin;
+  transform-style: preserve-3d;
+  /*  so that its cube children don’t get flattened into its plane  */
+
+  top: 50%;
+  left: 50%;
+
+  animation: move 2s infinite alternate ease-in-out;
+}
+
+.cube-face {
+  margin: calc(var(--cube-edge) * -0.5);
+  /*  So that the cube is in dead centre by giving negative margin of half size  */
+  width: var(--cube-edge);
+  aspect-ratio: 1;
+
+  outline: 1px solid black;
+}
+
+.cube-face:nth-child(1) {
+  /*  rotate3d(i, j, k, angle)  */
+  transform: rotateY(0deg) translateZ(calc(var(--cube-edge) * 0.5));
+  /*  OR transform: rotate3d(0, 1, 0, 0deg) translateZ(calc(var(--cube-edge) * 0.5)); */
+  background-color: red;
+}
+
+.cube-face:nth-child(2) {
+  transform: rotateY(90deg) translateZ(calc(var(--cube-edge) * 0.5));
+  background-color: green;
+}
+
+.cube-face:nth-child(3) {
+  transform: rotateY(180deg) translateZ(calc(var(--cube-edge) * 0.5));
+  background-color: blue;
+}
+
+.cube-face:nth-child(4) {
+  transform: rotateY(270deg) translateZ(calc(var(--cube-edge) * 0.5));
+  background-color: orange;
+}
+
+.cube-face:nth-child(5) {
+  transform: rotateX(90deg) translateZ(calc(var(--cube-edge) * 0.5));
+  background-color: yellow;
+}
+
+.cube-face:nth-child(6) {
+  transform: rotateX(-90deg) translateZ(calc(var(--cube-edge) * 0.5));
+  background-color: white;
+}
+
+@keyframes move {
+  0% {
+    transform: rotate3d(1, -1, 0, 0deg);
+  }
+  100% {
+    transform: rotate3d(1, 1, 0, 360deg);
+  }
+}
