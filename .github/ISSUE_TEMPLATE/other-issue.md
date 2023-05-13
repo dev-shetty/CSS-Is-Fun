@@ -1,5 +1,5 @@
 ---
-name: Other Issue
+name: 🛠 Other Issue
 about: For issues that don't fit the other categories
 title: "[OTHER] Brief description of the issue"
 labels: ''

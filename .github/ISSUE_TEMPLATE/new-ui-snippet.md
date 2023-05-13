@@ -1,5 +1,5 @@
 ---
-name: New UI Snippet
+name: 🎯 New UI Snippet
 about: Suggest a new UI snippet for the project
 title: "[UI] Brief description of the new UI snippet"
 labels: enhancement, UI
