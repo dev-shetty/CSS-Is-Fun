@@ -44,7 +44,7 @@ To use these CSS animations and effects in your Local System , simply download o
 
 ## Contributing
 
-Encourage your contributions. Welcome to CSS is Fun on GitHub! We're excited for your contributions, big or small. Join our inclusive community and work on various CSS tasks to improve design and functionality. Let's collaborate and make something great together!🚀 For detailed instructions on how to contribute, please refer to the CONTRIBUTING.md file.
+ We encourage your contributions. Welcome to CSS is Fun on GitHub! We're excited for your contributions, big or small. Join our inclusive community and work on various CSS tasks to improve design and functionality. Let's collaborate and make something great together!🚀 For detailed instructions on how to contribute, please refer to the CONTRIBUTING.md file.
 
 ## License
 
