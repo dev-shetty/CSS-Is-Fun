@@ -1,6 +1,6 @@
 # CSS Is Fun 
 
-### Yes! You heard it right CSS is awesome, That's great to hear! CSS is a powerful tool for designing and styling web pages this repository also contains UI snippets are pre-built CSS code blocks that can be easily integrated into a website to add style and functionality.
+### Yes! You heard it right CSS is awesome, That's great to hear! CSS is a powerful tool for designing and styling web pages this repository also contains UI snippets which are pre-built CSS code blocks that can be easily integrated into a website to add style and functionality.
 
 CSS-Is-Fun is a collection of creative and fun CSS animations and effects to enhance your web projects.This repository containing CSS UI snippets is a valuable resource for web designers and developers looking to streamline their workflow and add creative design elements to their projects. By using these snippets, designers can save time and effort while also ensuring consistency and coherence across their website's design.
 
@@ -44,7 +44,7 @@ To use these CSS animations and effects in your Local System , simply download o
 
 ## Contributing
 
-We welcome contributions .Welcome to CSS is Fun on GitHub! We're excited for your contributions, big or small. Join our inclusive community and work on various CSS tasks to improve design and functionality. Let's collaborate and make something great together!🚀 For detailed instructions on how to contribute, please refer to the CONTRIBUTING.md file.
+We welcome contributions . Welcome to CSS is Fun on GitHub! We're excited for your contributions, big or small. Join our inclusive community and work on various CSS tasks to improve design and functionality. Let's collaborate and make something great together!🚀 For detailed instructions on how to contribute, please refer to the CONTRIBUTING.md file.
 
 ## License
 
