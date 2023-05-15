@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-carousel {
+  --columns: 6;
+  --carousel-gap: 1vmin;
+  --image-size: 5em;
+
+  padding: 1rem;
+  max-width: calc(var(--columns) * var(--image-size));
+  margin-inline: auto;
+  display: grid;
+  grid-template-columns: repeat(var(--columns), 1fr);
+  gap: var(--carousel-gap);
+  /* 	grid-auto-rows: var(--image-size); */
+  grid-auto-flow: row dense;
+
+  transition: all 500ms ease-in-out;
+}
+
+.carousel-item {
+  /* 	width: var(--image-size); */
+  width: 100%;
+  aspect-ratio: 1;
+}
+
+.carousel-item > img {
+  max-width: 100%;
+  display: block;
+  object-fit: cover;
+}
