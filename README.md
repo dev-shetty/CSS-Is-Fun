@@ -38,6 +38,7 @@ To use these CSS animations and effects in your Local System , simply download o
 | Indian Flag           | [Go Live](https://codepen.io/pen/xxyzqVa)                   | <img src="https://github.com/Deveesh-Shetty/CSS-Is-Fun/assets/89470104/68843a36-a400-4e48-8907-435e68d8cdc0" alt="Indian Flag" width="400" height="400">       | [Code - Indian Flag](https://github.com/Deveesh-Shetty/CSS-Is-Fun/tree/master/Indian%20Flag)             |
 | Image Carousel I      | [Go Live](https://codepen.io/pen/gOBKRNV)                   | <img src="https://github.com/Deveesh-Shetty/CSS-Is-Fun/assets/89470104/5fc52924-7403-4178-a7ab-fc796cfab567" alt="Image Carousel I" width="400" height="400">  | [Code - Image Carousel I](https://github.com/Deveesh-Shetty/CSS-Is-Fun/tree/master/Carousel%20I)         |
 | Image Carousel II     | [Go Live](https://codepen.io/pen/bGmjbVo)                   | <img src="https://github.com/Deveesh-Shetty/CSS-Is-Fun/assets/89470104/a8ef65b5-873c-4365-b4be-485bae463e87" alt="Image Carousel II" width="400" height="400"> | [Code - Image Carousel II](https://github.com/Deveesh-Shetty/CSS-Is-Fun/tree/master/Carousel%20II)       |
+| Color Wheel           | [Go Live](https://codepen.io/pen/GRYXvKw)                   | <img src="https://github.com/Deveesh-Shetty/CSS-Is-Fun/assets/89470104/b4a4bc20-d43b-4bc0-b86d-ae89ae84ff42" alt="Color Wheel" width="400" height="400">       | [Code - Color Wheel](https://github.com/Deveesh-Shetty/CSS-Is-Fun/tree/master/Color%20Wheel)             |
 
 <br>
 
