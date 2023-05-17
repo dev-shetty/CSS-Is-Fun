@@ -1,0 +1,106 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  padding: 2rem;
+  min-height: 100%;
+  background-color: #f3f3f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  --radius: 1rem;
+  width: min(80%, 50rem);
+  border-radius: var(--radius);
+}
+
+.screen {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background-color: white;
+  border-radius: var(--radius) var(--radius) 0 0;
+  position: relative;
+  z-index: 1;
+}
+
+.screen > img {
+  border-radius: inherit;
+  max-width: 100%;
+  object-fit: cover;
+  aspect-ratio: inherit;
+  display: block;
+}
+
+.control {
+  --gap: clamp(1rem, 2vw, 2rem);
+
+  width: 100%;
+  height: clamp(1rem, 10vw, 3rem);
+  display: flex;
+  align-items: center;
+  gap: var(--gap);
+  justify-content: center;
+  background-color: #fff;
+  font-size: clamp(0.75rem, 5vw, 1.25rem);
+  border-radius: 0 0 var(--radius) var(--radius);
+
+  transition: transform 500ms ease-in-out;
+}
+
+.control.toggle {
+  transform: translateY(-50%);
+}
+
+#player {
+  width: 12rem;
+}
+
+:has(.control.toggle) .screen i[data-contract] {
+  display: none;
+}
+
+/* Only icons with title with have this indicating they are clickable */
+.control i[title] {
+  cursor: pointer;
+}
+
+.control > div {
+  display: flex;
+  align-items: center;
+  gap: calc(var(--gap) / 2);
+}
+
+.control > div > .timer {
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 50em) {
+  .control {
+    flex-direction: column;
+    height: auto;
+    padding: 1rem;
+  }
+  .control > div {
+    gap: var(--gap);
+    width: 100%;
+  }
+  .media-control {
+    justify-content: center;
+  }
+  #player {
+    flex-basis: 100%;
+  }
+  .volume-control,
+  .timer-control {
+    justify-content: space-between;
+  }
+}

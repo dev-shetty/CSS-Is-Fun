@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Video Player</title>
+  </head>
+  <body>
+    <main>
+      <div class="screen">
+        <img
+          src="https://source.unsplash.com/random?nature"
+          alt="Marvel Movie"
+        />
+      </div>
+      <div class="control">
+        <div class="media-control">
+          <i class="ti ti-player-track-prev-filled" title="previous"></i>
+          <i
+            class="ti ti-player-play-filled"
+            title="play/pause"
+            data-play-pause
+          ></i>
+          <i class="ti ti-player-track-next-filled" title="next"></i>
+          <i class="ti ti-player-stop-filled" title="stop"></i>
+          <i class="ti ti-menu-2" title="menu"></i>
+        </div>
+        <div class="timer-control">
+          <input type="range" name="player" id="player" />
+          <p class="timer">45:25:12</p>
+        </div>
+        <div class="volume-control">
+          <div>
+            <i class="ti ti-volume-2"></i>
+            <input type="range" name="volume" id="volume" />
+            <i class="ti ti-volume"></i>
+          </div>
+          <div>
+            <i class="ti ti-arrows-diagonal-2" title="expand" data-expand></i>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+  <script src="./script.js"></script>
+</html>
