@@ -1,6 +1,8 @@
 # CSS Is Fun
 
-### Yes! You heard it right CSS is awesome, That's great to hear! CSS is a powerful tool for designing and styling web pages this repository also contains UI snippets which are pre-built CSS code blocks that can be easily integrated into a website to add style and functionality.
+### Yes! You heard it right CSS is awesome. 
+
+That's great to hear! CSS is a powerful tool for designing and styling web pages this repository also contains UI snippets which are pre-built CSS code blocks that can be easily integrated into a website to add style and functionality.
 
 CSS-Is-Fun is a collection of creative and fun CSS animations and effects to enhance your web projects.This repository containing CSS UI snippets is a valuable resource for web designers and developers looking to streamline their workflow and add creative design elements to their projects. By using these snippets, designers can save time and effort while also ensuring consistency and coherence across their website's design.
 
@@ -39,7 +41,9 @@ To use these CSS animations and effects in your Local System , simply download o
 | Image Carousel I      | [Go Live](https://codepen.io/pen/gOBKRNV)                   | <img src="https://github.com/Deveesh-Shetty/CSS-Is-Fun/assets/89470104/5fc52924-7403-4178-a7ab-fc796cfab567" alt="Image Carousel I" width="400" height="300">  | [Code - Image Carousel I](https://github.com/Deveesh-Shetty/CSS-Is-Fun/tree/master/Carousel%20I)         |
 | Image Carousel II     | [Go Live](https://codepen.io/pen/bGmjbVo)                   | <img src="https://github.com/Deveesh-Shetty/CSS-Is-Fun/assets/89470104/a8ef65b5-873c-4365-b4be-485bae463e87" alt="Image Carousel II" width="400" height="300"> | [Code - Image Carousel II](https://github.com/Deveesh-Shetty/CSS-Is-Fun/tree/master/Carousel%20II)       |
 | Color Wheel           | [Go Live](https://codepen.io/pen/GRYXvKw)                   | <img src="https://github.com/Deveesh-Shetty/CSS-Is-Fun/assets/89470104/b4a4bc20-d43b-4bc0-b86d-ae89ae84ff42" alt="Color Wheel" width="400" height="400">       | [Code - Color Wheel](https://github.com/Deveesh-Shetty/CSS-Is-Fun/tree/master/Color%20Wheel)             |
-| Loading Page          | [Go Live](https://codepen.io/ahmedelmsery/pen/zZVLMN)       | <img src="https://res.cloudinary.com/duwcigilo/image/upload/v1684336253/Loading_image_ig5hh7.jpg" alt="Loading Page" width="400" height="300">               | [Code - Loading Page](https://github.com/Deveesh-Shetty/CSS-Is-Fun)                     |
+| Loading Page          | [Go Live](https://codepen.io/ahmedelmsery/pen/zZVLMN)       | <img src="https://res.cloudinary.com/duwcigilo/image/upload/v1684336253/Loading_image_ig5hh7.jpg" alt="Loading Page" width="400" height="300">               | [Code - Loading Page](https://github.com/Deveesh-Shetty/CSS-Is-Fun/tree/master/Loading%20Page)                     |
+| Video Player          | [Go Live](https://codepen.io/ahmedelmsery/pen/zYmmxNw)       | <img src="https://github.com/Deveesh-Shetty/CSS-Is-Fun/assets/89470104/4fa44080-b6cf-4a5a-b0eb-53012b1e39a7" alt="Video Player" width="400" height="300">               | [Code - Video Player](https://github.com/Deveesh-Shetty/CSS-Is-Fun/tree/master/Video%20Player)                     |
+| Bar Chart          | [Go Live](https://codepen.io/ahmedelmsery/pen/vYVQGLP)       | <img src="https://github.com/Deveesh-Shetty/CSS-Is-Fun/assets/89470104/700f6a4f-b376-42cd-89fb-d40ace55acea" alt="Bar Chart" width="400" height="300">               | [Code - Bar Chart](https://github.com/Deveesh-Shetty/CSS-Is-Fun/tree/master/Chart/BarChart)                     |
 
 <br>
 
