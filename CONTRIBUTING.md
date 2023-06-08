@@ -32,7 +32,9 @@ Before you start contributing, make sure you have the following tools installed 
 2. Navigate to the directory where you want to clone the repository.
 3. Run the following command:
 
-git clone https://github.com/YOUR_USERNAME/CSS-Is-Fun.git
+```bash
+  git clone https://github.com/YOUR_USERNAME/CSS-Is-Fun.git
+```
 
 Replace `YOUR_USERNAME` with your GitHub username.
 
@@ -41,7 +43,7 @@ Replace `YOUR_USERNAME` with your GitHub username.
 1. Navigate to the cloned repository on your local machine:
 
 ```bash
-    cd CSS-Is-Fun
+  cd CSS-Is-Fun
 ```
 
 2. Create a new branch using the following command:
