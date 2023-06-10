@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --clr-1: #1f2432;
+  --clr-2: #191e2c;
+  --clr-3: #ddd;
+}
+
+html {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  background-color: var(--clr-1);
+  color: var(--clr-3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+select {
+  background-color: var(--clr-1);
+  outline: none;
+  color: var(--clr-3);
+  border: none;
+  padding: 0.5rem 1rem;
+  width: 10rem;
+}
+
+.session-tab {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--clr-2);
+  width: 25rem;
+  border: 1px solid #334155;
+  padding: 1rem;
+  box-shadow: 0 0 0 8px var(--clr-2);
+}
+
+.data-label {
+  display: flex;
+  width: 100%;
+  padding-inline: 1rem;
+  justify-content: space-between;
+}
+
+.dot {
+  position: relative;
+  font-size: 0.85rem;
+}
+
+.dot::before {
+  content: "";
+  position: absolute;
+  left: -0.6rem;
+  top: 50%;
+  bottom: 0;
+  width: 0.5rem;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  transform: translateY(-50%);
+}
+
+.dot[data-clr="red"]::before {
+  background-color: red;
+}
+.dot[data-clr="blue"]::before {
+  background-color: blue;
+}
+.dot[data-clr="orange"]::before {
+  background-color: orange;
+}
+
+.pie-chart {
+  width: 75%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  aspect-ratio: 1;
+  margin-block: 1.5rem;
+  position: relative;
+  border-radius: 50%;
+  background: conic-gradient(blue 0% 49.4%, red 49.4% 81%, orange 0);
+}
+
+.pie-chart::after {
+  content: "";
+  position: absolute;
+  inset: 1rem;
+  border-radius: 50%;
+  background-color: var(--clr-2);
+  z-index: 5;
+}
+
+.pie-chart > h2 {
+  position: relative;
+  z-index: 10;
+}
