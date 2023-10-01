@@ -1,0 +1,10 @@
+.mover {
+    background-color: lightskyblue;
+    color: black;
+    display: inline-block;
+    padding: 0px 20px;
+    margin: 20px;
+    font-family: "Arial";
+    font-size: large;
+    position: relative;
+}
