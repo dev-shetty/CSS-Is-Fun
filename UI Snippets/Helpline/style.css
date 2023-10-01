@@ -1,0 +1,14 @@
+/* Apply styles to the body */
+body {
+    background-color:black;
+}
+
+/* Style the image */
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    display: block;
+    border: 2px solid #333;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
