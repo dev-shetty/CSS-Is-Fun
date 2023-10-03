@@ -1,0 +1,52 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400);
+
+
+body {
+    background-image:url("pexels-gradienta-7130469.jpg");
+    background-position:right;
+    font-family: "Roboto";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.clock {
+    font-size: 48px;
+    color: #333;
+    display: flex;
+    column-gap: 30px;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+
+}
+
+#Hours, #Minutes, #Seconds{
+    width:150px;
+    height: 150px;
+    border: solid white 1px;
+    color: rgb(70, 70, 70);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+#Hours:hover, #Minutes:hover, #Seconds:hover{
+    box-shadow: 3px 3px 5px rgba(128, 128, 128, 0.151);
+}
+
+h1 {
+    color: #6969698a;
+    transition: 2s;
+}
+
+h1:hover{
+    color: rgba(240, 248, 255, 0.685);
+}
+
+.footer{
+    margin-top: 50px;
+    opacity: 0.2;
+}
