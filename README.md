@@ -48,6 +48,7 @@ To use these CSS animations and effects in your Local System , simply download o
 | Flipcard         | [Go Live](https://codepen.io/VoiD_Z/pen/KKbBQxy)      | <img src="https://github.com/MeetThakur/CSS-Is-Fun/assets/99238677/dd055698-20c5-4506-9db2-40462c7c4762" alt="Session Graph" width="400" height="300">     | [Code - FlipCard](https://github.com/MeetThakur/CSS-Is-Fun/tree/master/UI%20Snippets/FlipCard)                     |
 | Mouse Chaser         | [Go Live](https://codepen.io/NilothpalPillai/pen/BavPrWm)      | <img src="https://github.com/Nilothpal-Pillai/CSS-Is-Fun/assets/20315308/de5210cc-7eca-466c-b1bd-092bae2c3c39" alt="Mouse Chaser" width="400" height="300">  | [Code - Mouse Chaser](https://github.com/Nilothpal-Pillai/CSS-Is-Fun/tree/Mouse-Chaser/UI%20Snippets/Mouse%20Chaser)                     |
 | Helpline         | [Go Live](https://codepen.io/Swathi-Singh/pen/dywjqoz)      | <img src="https://wpassets.adda247.com/wp-content/uploads/multisite/sites/5/2020/04/11132345/Helpline.jpg" alt="Helpline" width="400" height="300"> | [Code - Helpline](https://github.com/Deveesh-Shetty/CSS-Is-Fun/tree/master/UI%20Snippets/Helpline)                     |
+| Digital Clock         | [Go Live](https://codepen.io/rohancs127/pen/dywgQey)      | | [Code - Helpline]                    |
 
 
 <br>
