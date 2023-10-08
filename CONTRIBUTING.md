@@ -59,11 +59,7 @@ Replace `your-new-branch-name` with a descriptive name for your branch, such as 
 1. Open the project in your preferred code editor.
 2. Make the necessary changes to the project. This could include adding new features, fixing bugs, or improving existing code.
 3. Test your changes to ensure they work correctly and do not introduce new bugs.
-4. Make sure to update those changes in the `Readme.md` file following the previous table format
-```md
-| Snippet Name | [Go Live](codepen-link) | <img src="drag-and-drop-the-image-then-copy-the-link-here" alt="Cart Item" width="400" height="300"> | [Code - Snippet name](Snippet-location-in-the-repo) |
-```
-5. Also add it to the `snippets.json` file with the mentioned order in it.
+4. Also add it to the `snippets.json` file with the mentioned order in it.
 
 ## Commit Your Changes
 
