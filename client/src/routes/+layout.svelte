@@ -10,7 +10,7 @@
 		<slot />
 	</main>
 
-	<footer class="flex justify-center py-2 bg-slate-50">
+	<!-- <footer class="flex justify-center py-2 bg-slate-50">
 		&#0169; Deveesh Shetty - {new Date().getFullYear()}
-	</footer>
+	</footer> -->
 </div>
