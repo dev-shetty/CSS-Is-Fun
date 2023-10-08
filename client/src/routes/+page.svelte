@@ -1,7 +1,5 @@
-<script>
-	import Counter from './Counter.svelte';
-	import welcome from '$lib/images/svelte-welcome.webp';
-	import welcome_fallback from '$lib/images/svelte-welcome.png';
+<script lang="ts">
+	import snippets from '$lib/snippets.json';
 </script>
 
 <svelte:head>
@@ -9,51 +7,32 @@
 	<meta name="description" content="Svelte demo app" />
 </svelte:head>
 
-<section>
-	<h1>
-		<span class="welcome">
-			<picture>
-				<source srcset={welcome} type="image/webp" />
-				<img src={welcome_fallback} alt="Welcome" />
-			</picture>
-		</span>
-
-		to your new<br />SvelteKit app
-	</h1>
-
-	<h2>
-		try editing <strong>src/routes/+page.svelte</strong>
-	</h2>
-
-	<Counter />
+<section class="container mx-auto my-4">
+	<h1>UI Snippets</h1>
+	<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-2 mt-4 mx-4">
+		{#each snippets as snippet (snippet)}
+			<div class="flex flex-col gap-2 p-2 bg-slate-50 rounded-md">
+				<!-- For Codepen Embed -->
+				<!-- <p
+					class="codepen aspect-square"
+					data-height="500"
+					data-default-tab="result"
+					data-slug-hash={snippet['codepen-link'].split('/').at(-1)}
+				>
+					<span
+						>See the Pen <a href={snippet['codepen-link']}> {snippet.name}</a>
+						by {snippet.author} on
+						<a href="https://codepen.io">CodePen</a>.</span
+					>
+				</p>
+				<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script> -->
+				<img src={snippet['image-link']} alt={snippet.name} class="aspect-square" />
+				<div class="text-center">
+					<p class="text-xl">{snippet.name}</p>
+					<p>Visit at <a href={snippet['codepen-link']}>Codepen</a></p>
+					<p>Author: {snippet.author}</p>
+				</div>
+			</div>
+		{/each}
+	</div>
 </section>
-
-<style>
-	section {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		flex: 0.6;
-	}
-
-	h1 {
-		width: 100%;
-	}
-
-	.welcome {
-		display: block;
-		position: relative;
-		width: 100%;
-		height: 0;
-		padding: 0 0 calc(100% * 495 / 2048) 0;
-	}
-
-	.welcome img {
-		position: absolute;
-		width: 100%;
-		height: 100%;
-		top: 0;
-		display: block;
-	}
-</style>
