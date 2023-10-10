@@ -1,0 +1,129 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400);
+
+body{
+    font-family: 'Roboto';
+    margin-top: 7%;
+    display:grid;
+    align-items: center;
+    justify-content: center;
+    background-image: url("images/64.\ Magic\ Mint.jpg");
+    background-position: 0px -2000px;
+    color: rgb(103, 103, 103);
+}
+
+.container{
+    display: flex;
+    background-image: url("images/70.\ Honeydew.jpg");
+    background-size: cover;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.246);
+    width: 630px;
+    height: 630px;
+    row-gap: 4%;
+    border-radius: 10px;
+}
+
+h1{
+    color:black;
+    font-size: 26px;
+}
+
+.else-section{
+    display: flex;
+    width:100%;
+    justify-content:center ;
+    align-items: center;
+    column-gap: 10px;
+    color: rgb(151, 151, 151);
+}
+
+.line{
+    background-color: rgb(151, 151, 151);
+    width: 100px;
+    height: 0.5px;
+}
+
+.github-login-option{
+    display: flex;
+    justify-content: center;
+    transition: 0.3s;
+    cursor:pointer;
+    overflow: hidden;
+    border-radius: 4px;
+    cursor:pointer;
+}
+.github-login-option:hover{
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.499);
+}
+.github-login-option:hover .continue-with-github-button{
+    background-color: rgb(38, 38, 38);
+}
+
+.github-icon-div{
+    height: 40px;
+}
+.github-icon{
+    height: 40px;
+    background-color: white;
+}
+
+.continue-with-github-button{
+    height: 40px;
+    border: none;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color:black;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.email-input, .password-input, .confirm-password-input{
+    background: none;
+    border: solid rgba(0, 0, 0, 0.372) 1px;
+    color: rgba(0,0,0,0.7);
+    padding: 15px;
+    padding-right: 55px;
+    border-radius: 5px;
+    font-size: 17px;
+}
+
+.email-input:focus, .password-input:focus, .confirm-password-input:focus{
+    outline: none;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.372);
+}
+
+.email-input::placeholder, .password-input::placeholder, .confirm-password-input::placeholder{
+    color: rgba(0,0,0,0.372);
+}
+
+.login-button{
+    background: none;
+    padding: 12px;
+    padding-left: 60px;
+    padding-right: 60px;
+    border: none;
+    font-family: 'Roboto';
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.login-button:hover{
+    background-color: rgb(62, 62, 62);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.499);
+    padding: 18px;
+    padding-left: 66px;
+    padding-right: 66px;
+}
+
+.TandC{
+    cursor:pointer;
+  }
