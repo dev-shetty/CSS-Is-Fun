@@ -51,7 +51,7 @@ h1{
     transition: 0.3s;
     cursor:pointer;
     overflow: hidden;
-    border-radius: 4px;
+    border-radius: 10px;
     cursor:pointer;
 }
 .github-login-option:hover{
@@ -67,6 +67,11 @@ h1{
 .github-icon{
     height: 40px;
     background-color: white;
+}
+
+.github-icon-div>img{
+    border-color: black;
+    border-width: 1px;
 }
 
 .continue-with-github-button{
@@ -87,7 +92,7 @@ h1{
     color: rgba(0,0,0,0.7);
     padding: 15px;
     padding-right: 55px;
-    border-radius: 5px;
+    border-radius: 10px;
     font-size: 17px;
 }
 
@@ -111,7 +116,7 @@ h1{
     background-color: rgba(0, 0, 0, 0.8);
     color: white;
     font-weight: bold;
-    border-radius: 5px;
+    border-radius: 10px;
     transition: 0.3s;
     cursor: pointer;
 }
