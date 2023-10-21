@@ -27,6 +27,27 @@ To use these CSS animations and effects in your Local System , simply download o
   git clone https://github.com/Deveesh-Shetty/CSS-Is-Fun.git
 ```
 
+## Table of Contents
+- [Cart Item](https://codepen.io/deveesh_shetty_12/pen/rNKXvKm)
+- [Social Login](https://codepen.io/pen/KKejzVy).
+- [Counter using Closure](https://codepen.io/pen/vYVjLqx).
+- [Accordion](https://codepen.io/pen/YzJLEbb).
+- [3D Cube](https://codepen.io/pen/mdzKEQg).
+- [Festival Lighting](https://codepen.io/pen/NWOzdvK).
+- [Indian Flag](https://codepen.io/pen/xxyzqVa).
+- [Image Carousel I](https://codepen.io/pen/gOBKRNV).
+- [Image Carousel II](https://codepen.io/pen/bGmjbVo).
+- [Color Wheel](https://codepen.io/pen/GRYXvKw).
+- [Video Player](https://codepen.io/ahmedelmsery/pen/zYmmxNw).
+- [Bar Chart](https://codepen.io/ahmedelmsery/pen/vYVQGLP).
+- [Loading Page](https://codepen.io/ahmedelmsery/pen/zZVLMN).
+- [Session Graph](https://codepen.io/ahmedelmsery/pen/qBQdZeJ).
+- [Flipcard](https://codepen.io/VoiD_Z/pen/KKbBQxy).
+- [Mouse Chaser](https://codepen.io/NilothpalPillai/pen/BavPrWm).
+- [Helpline](https://codepen.io/Swathi-Singh/pen/dywjqoz).
+- [Digital Clock](https://codepen.io/rohancs127/pen/dywgQey).
+- [profile card](https://codepen.io/Raksha09/pen/ZEVVzwB).
+
 ## Snippets
 
 | Project Name          | CodePen Link                                                | Preview                                                                                                                                                        | Source Code                                                                                              |
