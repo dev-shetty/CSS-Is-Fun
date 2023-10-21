@@ -27,6 +27,10 @@ To use these CSS animations and effects in your Local System , simply download o
   git clone https://github.com/Deveesh-Shetty/CSS-Is-Fun.git
 ```
 
+## Table of Contents:
+-  [Cart Item](https://codepen.io/deveesh_shetty_12/pen/rNKXvKm)
+
+
 ## Snippets
 
 | Project Name          | CodePen Link                                                | Preview                                                                                                                                                        | Source Code                                                                                              |
