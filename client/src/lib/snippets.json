@@ -114,18 +114,29 @@
 		"author":"Rohan"
 	},
 	{
+		"name":"Magic Card",
+		"codepen-link":"https://codepen.io/Nandan-aghera/pen/WNPNjbW",
+		"image-link":"https://imagetolink.com/ib/5zU6L3qQWj",
+    "author":"Nandan"
+  },
+  {
 		"name":"Game Interface",
 		"codepen-link":"https://codepen.io/Nandan-aghera/pen/LYqYZjv",
 		"image-link":"https://imagetolink.com/ib/DIWEoDwgGu",
 		"author":"Nandan"
 	},
 	{
-		
 		"name":"Transportation Booking UI",
 		"codepen-link":"https://codepen.io/Nandan-aghera/pen/yLZYgwg",
 		"image-link":"https://imagetolink.com/ib/QLKsJROmte",
 		"author":"Nandan"
-		
+  },
+  {		
+		"name":"Bouncing Ball",
+		"codepen-link":"https://codepen.io/Nandan-aghera/pen/gOqOXEw",
+		"image-link":"https://imagetolink.com/ib/3HUDdOQtLY",
+		"author":"Nandan"
 	}
+
 
 ]
